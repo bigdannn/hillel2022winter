@@ -1,4 +1,4 @@
-package lesson_02;
+package com.hillel.lesson_02;
 
 /**
  * JavaDoc
