@@ -16,7 +16,6 @@ public class Main {
 //        usr.setStatus(UserStatus.ACTIVE);
 //        System.out.println(usr);
 
-
 //        // enum + field
 //        System.out.println("Enum >>> " + SearchSystem.class.getSimpleName());
 //        System.out.println(SearchSystem.GOOGLE);
@@ -30,8 +29,7 @@ public class Main {
 //        System.out.println("Enum >>> " + Operation.class.getSimpleName());
 //        System.out.println(Operation.MINUS.calculate(10, 5));
 //        System.out.println(Operation.PLUS.calculate(10, 5));
-
-
+        
         UserStatus[] values = UserStatus.values();
 
         for (UserStatus us : values) {
