@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FirstMavenProject" />
+        <module name="unitTests" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.hillel.winter2022" target="1.5" />
-      <module name="FirstMavenProject" target="17" />
+      <module name="FirstMavenProject" target="11" />
+      <module name="unitTests" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

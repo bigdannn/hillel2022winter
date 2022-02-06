@@ -24,10 +24,8 @@ public class ArmstrNumber {
             } else {
                 value++;
             }
-
         }
     }
-
 
     private static boolean isArmstrongNumber(Integer value){
         String[] mass = value.toString().split("");
