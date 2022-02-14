@@ -9,10 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="FirstMavenProject" />
         <module name="unitTests" />
+        <module name="blackJack" />
         <module name="jarApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="blackJack" target="11" />
       <module name="com.hillel.winter2022" target="1.5" />
       <module name="FirstMavenProject" target="11" />
       <module name="jarApp" target="11" />
