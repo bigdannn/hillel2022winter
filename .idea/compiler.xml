@@ -11,6 +11,7 @@
         <module name="unitTests" />
         <module name="blackJack" />
         <module name="jarApp" />
+        <module name="restExample" />
         <module name="pars" />
       </profile>
     </annotationProcessing>
@@ -20,7 +21,13 @@
       <module name="FirstMavenProject" target="11" />
       <module name="jarApp" target="11" />
       <module name="pars" target="1.8" />
+      <module name="restExample" target="1.8" />
       <module name="unitTests" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="restExample" options="-parameters" />
+    </option>
   </component>
 </project>

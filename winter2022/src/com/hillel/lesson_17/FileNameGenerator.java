@@ -27,7 +27,7 @@ public class FileNameGenerator {
         String s = currentRelativePath.toAbsolutePath().toString();
         System.out.println("Current relative path is: " + s);
 
-        File file = new File(s.concat(File.separator).concat(fileName));
+        File file = new File(File.separator.concat(fileName));
 
         if(!file.exists()){
             file.createNewFile();

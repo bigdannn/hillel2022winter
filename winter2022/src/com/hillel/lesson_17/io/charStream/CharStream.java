@@ -13,11 +13,29 @@ public class CharStream {
              FileWriter fw = new FileWriter("/Users/stepurkoolksandr/hillel2022winter/winter2022/src/com/hillel/lesson_17/io/charStream/output.txt")) {
             List<Character> list = new ArrayList<>();
             int a;
+            StringBuilder sb = new StringBuilder();
             while ((a = fr.read()) != -1) {
                 list.add((char) a);
-                fw.write(a);
+//                fw.write(a);
+                sb.append((char) a);
             }
-            System.out.println(list);
+            String text = sb.toString();
+            System.out.println(text);
+
+            String[] t = text.split("\n");
+
+            System.out.println(t.length);
+
+            t[13] = "add value";
+
+            System.out.println();
+            sb = new StringBuilder();
+            for (String str : t){
+                sb.append(str).append("\n");
+            }
+
+            System.out.println(sb.toString());
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
