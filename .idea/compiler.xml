@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="restExample" />
+        <module name="pars" />
         <module name="FirstMavenProject" />
         <module name="unitTests" />
         <module name="blackJack" />
+        <module name="jdbc-example" />
         <module name="jarApp" />
-        <module name="restExample" />
-        <module name="pars" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="com.hillel.winter2022" target="1.5" />
       <module name="FirstMavenProject" target="11" />
       <module name="jarApp" target="11" />
+      <module name="jdbc-example" target="11" />
       <module name="pars" target="1.8" />
       <module name="restExample" target="1.8" />
       <module name="unitTests" target="11" />
