@@ -10,6 +10,7 @@
         <module name="restExample" />
         <module name="pars" />
         <module name="FirstMavenProject" />
+        <module name="logging" />
         <module name="unitTests" />
         <module name="blackJack" />
         <module name="jdbc-example" />
@@ -22,6 +23,7 @@
       <module name="FirstMavenProject" target="11" />
       <module name="jarApp" target="11" />
       <module name="jdbc-example" target="11" />
+      <module name="logging" target="1.8" />
       <module name="pars" target="1.8" />
       <module name="restExample" target="1.8" />
       <module name="unitTests" target="11" />

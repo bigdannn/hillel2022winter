@@ -5,15 +5,23 @@ import com.blackJack.dto.Player;
 import com.blackJack.service.CardDeck;
 import com.blackJack.service.ComputerTurn;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class RunGame {
+    private static final Logger loggerDebug = LoggerFactory.getLogger("logger.debug");
+    private static final Logger loggerResult = LoggerFactory.getLogger("logger.result");
+
     public static void main(String[] args) {
         System.out.println("Добрый день. Веедите ваше имя ...");
+
         Scanner scanner = new Scanner(System.in);
         Player pl = new Player(scanner.nextLine());
+//        loggerDebug.debug("hello user : " + pl.getName());
 
         String ch = "";
         do {
@@ -55,13 +63,11 @@ public class RunGame {
         } while (nextGame);
 
 
-        System.out.println();
-        System.out.println();
-        System.out.println("===============================================");
-        System.out.println("Игровая статистика для игрока : " + pl.getName());
-        System.out.println("Выиграно   :" + pl.getWin());
-        System.out.println("Проигранно :" + pl.getLost());
-        System.out.println("===============================================");
+        loggerResult.debug("===============================================");
+        loggerResult.debug("Игровая статистика для игрока : " + pl.getName());
+        loggerResult.debug("Выиграно   :" + pl.getWin());
+        loggerResult.debug("Проигранно :" + pl.getLost());
+        loggerResult.debug("===============================================");
 
 
     }
