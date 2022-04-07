@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="restExample" />
         <module name="pars" />
+        <module name="HibernateSample" />
         <module name="FirstMavenProject" />
         <module name="logging" />
         <module name="unitTests" />
@@ -21,6 +22,10 @@
       <module name="blackJack" target="11" />
       <module name="com.hillel.winter2022" target="1.5" />
       <module name="FirstMavenProject" target="11" />
+      <module name="hibernate-mappings" target="1.8" />
+      <module name="hibernateBase" target="1.8" />
+      <module name="HibernateOneToManyMapping" target="17.0.1" />
+      <module name="HibernateSample" target="11" />
       <module name="jarApp" target="11" />
       <module name="jdbc-example" target="11" />
       <module name="logging" target="1.8" />
