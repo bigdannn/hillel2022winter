@@ -16,6 +16,7 @@
         <module name="blackJack" />
         <module name="jdbc-example" />
         <module name="jarApp" />
+        <module name="liquibase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="HibernateSample" target="11" />
       <module name="jarApp" target="11" />
       <module name="jdbc-example" target="11" />
+      <module name="liquibase" target="11" />
       <module name="logging" target="1.8" />
       <module name="pars" target="1.8" />
       <module name="restExample" target="1.8" />
