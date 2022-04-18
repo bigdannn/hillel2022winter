@@ -10,6 +10,8 @@ import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
+import java.util.ResourceBundle;
 import java.util.Scanner;
 
 public class RunGame {
@@ -18,6 +20,13 @@ public class RunGame {
 
     public static void main(String[] args) {
         System.out.println("Добрый день. Веедите ваше имя ...");
+
+        Locale locale;
+        if (args.length == 0)
+            locale = new Locale("en", "US");
+        else
+            locale = new Locale(args[0], args[1]);
+        ResourceBundle resourceBundle = ResourceBundle.getBundle("language", locale);
 
         Scanner scanner = new Scanner(System.in);
         Player pl = new Player(scanner.nextLine());
