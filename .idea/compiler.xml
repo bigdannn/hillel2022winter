@@ -10,6 +10,8 @@
         <module name="restExample" />
         <module name="pars" />
         <module name="HibernateSample" />
+        <module name="SpringExampleXml" />
+        <module name="SpringExampleAnotation" />
         <module name="FirstMavenProject" />
         <module name="logging" />
         <module name="unitTests" />
@@ -33,6 +35,8 @@
       <module name="logging" target="1.8" />
       <module name="pars" target="1.8" />
       <module name="restExample" target="1.8" />
+      <module name="SpringExampleAnotation" target="1.8" />
+      <module name="SpringExampleXml" target="11" />
       <module name="unitTests" target="11" />
     </bytecodeTargetLevel>
   </component>

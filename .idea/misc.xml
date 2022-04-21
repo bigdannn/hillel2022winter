@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/winter2022/mvnProjects/logging/pom.xml" />
         <option value="$PROJECT_DIR$/winter2022/mvnProjects/hibernateSample/pom.xml" />
         <option value="$PROJECT_DIR$/winter2022/mvnProjects/liquibase/pom.xml" />
+        <option value="$PROJECT_DIR$/winter2022/mvnProjects/SpringExampleXml/pom.xml" />
+        <option value="$PROJECT_DIR$/winter2022/mvnProjects/SpringExampleAnotation/pom.xml" />
       </list>
     </option>
   </component>
