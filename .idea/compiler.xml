@@ -9,21 +9,24 @@
         <outputRelativeToContentRoot value="true" />
         <module name="restExample" />
         <module name="pars" />
-        <module name="HibernateSample" />
         <module name="SpringExampleXml" />
         <module name="SpringExampleAnotation" />
         <module name="FirstMavenProject" />
-        <module name="logging" />
         <module name="unitTests" />
-        <module name="blackJack" />
         <module name="jdbc-example" />
         <module name="jarApp" />
         <module name="liquibase" />
+        <module name="springBootTemplate" />
+        <module name="HibernateSample" />
+        <module name="exchanger" />
+        <module name="logging" />
+        <module name="blackJack" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="blackJack" target="11" />
       <module name="com.hillel.winter2022" target="1.5" />
+      <module name="exchanger" target="11" />
       <module name="FirstMavenProject" target="11" />
       <module name="hibernate-mappings" target="1.8" />
       <module name="hibernateBase" target="1.8" />
@@ -35,6 +38,7 @@
       <module name="logging" target="1.8" />
       <module name="pars" target="1.8" />
       <module name="restExample" target="1.8" />
+      <module name="springBootTemplate" target="11" />
       <module name="SpringExampleAnotation" target="1.8" />
       <module name="SpringExampleXml" target="11" />
       <module name="unitTests" target="11" />
@@ -42,7 +46,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="exchanger" options="-parameters" />
       <module name="restExample" options="-parameters" />
+      <module name="springBootTemplate" options="-parameters" />
     </option>
   </component>
 </project>
