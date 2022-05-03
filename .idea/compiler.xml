@@ -18,14 +18,15 @@
         <module name="liquibase" />
         <module name="springBootTemplate" />
         <module name="HibernateSample" />
-        <module name="exchanger" />
         <module name="logging" />
+        <module name="echange" />
         <module name="blackJack" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="blackJack" target="11" />
       <module name="com.hillel.winter2022" target="1.5" />
+      <module name="echange" target="11" />
       <module name="exchanger" target="11" />
       <module name="FirstMavenProject" target="11" />
       <module name="hibernate-mappings" target="1.8" />
@@ -46,6 +47,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="echange" options="-parameters" />
       <module name="exchanger" options="-parameters" />
       <module name="restExample" options="-parameters" />
       <module name="springBootTemplate" options="-parameters" />
